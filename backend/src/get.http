@@ -1,0 +1,67 @@
+
+
+### 🧪 Testar cadastro de cliente
+POST http://localhost:3333/api/clientes
+Content-Type: application/json
+
+{
+  "nome": "Maria Oliveira",
+  "email": "maria@exemplo.com",
+  "senha": "senha123"
+}
+
+###
+### 🧪 Testar cadastro de funcionários
+POST http://localhost:3333/api/funcionarios
+Content-Type: application/json
+
+{
+  "nome": "Maria Oliveira",
+  "email": "maria@exemplo.com",
+  "nome_truck_trabalho": "teste",
+  "senha": "senha123",
+  "chef_id": 1
+}
+
+### 📋 Listar todos os clientes
+GET http://localhost:3333/api/clientes
+
+###
+### 📋 Listar todos os trucks
+GET http://localhost:3333/api/chefs
+
+
+
+### 📋 Listar todos os funcionários
+GET http://localhost:3333/api/funcionarios
+
+### ✏️ Atualizar cliente
+PUT http://localhost:3001/clientes/1
+Content-Type: application/json
+
+{
+  "nome": "Maria O. Silva",
+  "email": "maria.silva@exemplo.com",
+  "senha": "novaSenha456"
+}
+
+###
+
+### ❌ Testar erro de cadastro (campos vazios)
+POST http://localhost:3333/api/clientes
+Content-Type: application/json
+
+{
+  "nome": "",
+  "email": "",
+  "senha": ""
+}
+
+### Login de Cliente
+POST http://localhost:3333/api/clientes/login
+Content-Type: application/json
+
+{
+  "email": "usuario@exemplo.com",
+  "senha": "123456"
+  }
