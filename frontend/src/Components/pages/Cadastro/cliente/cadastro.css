@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Days+One&display=swap');
+
+*{
+        font-family: "Days One", sans-serif;
+}
+
+.tituloCa{
+    font-family: "Days One", sans-serif;
+    font-weight: 300;
+    margin-left: 6rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #151835;
+    width: 76%;
+    align-items: center;
+    text-align: center;
+    height: 7rem;
+    border-radius: 12px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.containerCa{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.corpo{
+    background-color: #15183585;
+    display: block;
+    color: aliceblue;
+    height: 40rem;
+    margin: 0;
+    width: 79%;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+}
+a{
+    color: #9AB2FF;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 6rem;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+.input{
+    width: 55rem;
+    margin-top: 2rem;
+    font-size: medium;
+    border-radius: 8px;
+    height: 3rem;
+}
+.btn-cadastrar{
+    background-color: #151835;
+    border: #9AB2FF solid 1px;
+    border-radius: 8px;
+    font-family: "Days One", sans-serif;
+    color: #F5972A;
+    height: 5rem;
+    width: 20rem;
+    font-size: 1.9rem;
+}
+.btn-cadastrar:hover {
+    background-color: #1f214d;
+    transform: scale(1.05);
+    color: #ffffff;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.popup-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup-botoes {
+  margin-top: 20px;
+}
+
+.btn-ok {
+  background-color: #d9534f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

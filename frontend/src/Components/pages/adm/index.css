@@ -1,0 +1,366 @@
+.caixas {
+    display: flex;
+    justify-content: center;
+}
+
+.caixa {
+    background-color: #151835;
+    width: 15rem;
+    padding: 1rem;
+    height: 9rem;
+    color: aliceblue;
+    margin: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caixa h3 {
+    color: #F5972A;
+}
+
+.caixa:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.pedidos {
+    background-color: #151835;
+    margin-top: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+    color: aliceblue;
+    display: flex;
+    width: 52rem;
+    justify-content: space-between;
+}
+
+.num {
+    margin-left: 2rem;
+}
+
+.grafico {
+    display: flex;
+    justify-content: center;
+}
+
+.dia {
+    background-color: #F5972A;
+    border-radius: 16px;
+    height: 8rem;
+    width: 4rem;
+    margin: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dia:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+.data {
+    margin-left: 1rem;
+}
+
+.d2 {
+    height: 7rem;
+}
+
+.perfil {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.foto {
+    width: 10rem;
+    height: 10rem;
+    border: solid 3px #9AB2FF;
+    background-color: #9AB2FF;
+    border-radius: 90px;
+}
+
+.perfil img {
+    height: 9rem;
+    justify-content: center;
+    margin: .5rem;
+}
+
+.inf {
+    background-color: #9AB2FF;
+    color: #1E2142;
+    margin-bottom: 0%;
+    height: 8rem;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.inf button {
+  background-color: #1E2142;
+  width: 10rem;
+  margin-top: 0;
+  height: 2rem;
+  font-family: "Days One", sans-serif;
+  font-size: .7rem;
+  color: aliceblue;
+  border-radius: 3px;
+  cursor: pointer;
+
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.inf button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+  background-color: #2a2d55; 
+}
+
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.inf button:focus {
+  animation: pulse 1s infinite;
+}
+.meuTruck{
+    background-color: #1518358b;
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+}
+.meuTruck h1{
+    font-family: "Days One", sans-serif;
+    color: aliceblue;
+    font-weight: 200;
+}
+.meuTruck img{
+ height: 22rem;
+ border: #F5972A solid 5px;
+ margin-left: 6rem;
+}
+.meuTruck button {
+  background-color: #F5972A;
+  color: aliceblue;
+  font-family: "Days One", sans-serif;
+  border-radius: 4px;
+  margin-top: 4rem;
+  width: 15rem;
+  height: 3rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.meuTruck button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.infTruck{
+    margin-left: 5rem;
+}
+.btn-caixas img{
+    height: 4rem;
+    background-color: #9AB2FF;
+    border-radius: 50px;
+    border: solid 3px #9AB2FF;
+}
+.btn-caixas{
+    height: 8rem;
+    color: #9AB2FF;
+    margin: 2rem;
+}
+.btn-caixas h4{
+    margin-left: 1rem;
+}
+.btn-caixas button {
+  background-color: #F5972A;
+  color: aliceblue;
+  font-family: "Days One", sans-serif;
+  font-size: 1rem;
+  width: 15rem;
+  margin-top: 0%;
+  margin-left: 1.2rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-caixas button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+  background-color: #ff9f40;
+}
+.btn-caixa{
+    margin-left: 1rem;
+    display: flex;
+    background-color: #151835;
+    color: aliceblue;
+    width: 18rem;
+    padding: 2rem;
+    border: #9AB2FF solid 1px;
+    height: 7rem;
+}
+.btn-p{
+    margin-left: 8rem;
+    margin-top: -5rem;
+}
+.sla{
+    display: flex;
+}
+.iconTruck{
+    background-color: #151835 !important;
+    border: none !important;
+    border-radius: 0rem !important;
+}
+.sla-btn{
+    height: 3rem;
+}
+.cont {
+  background-color: #1518358b;
+  margin: 3rem;
+  border-radius: 8px;
+  text-align: center;
+}
+.containerCa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  
+  gap: 1.5rem;       
+  justify-content: center; 
+}
+
+
+.geren {
+  background-color: #151835;
+  color: aliceblue;
+  border-radius: 8px;
+  padding: 1rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+
+.funcionario {
+  background-color: #1E2142;
+  border: #9AB2FF solid 1px;
+  font-weight: 100;
+  margin: 2rem ;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.funcionario h3 {
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+}
+
+.info {
+    margin-top: 1.3rem;
+  color: #F5972A;
+}
+
+.info img {
+  height: 3rem;
+}
+
+.info h4 {
+  font-size: 1rem;
+}
+
+.info-btn {
+  display: flex;
+}
+
+.funcionario button {
+  font-family: "Days One", sans-serif;
+  font-size: 1rem;
+  background-color: #F5972A;
+  color: #1E2142;
+  height: 3rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.funcionario button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+.vitrine img{
+    height: 30rem;
+    border: #F5972A solid 4px;
+}
+.vitrine{
+    background-color: #151835;
+    width: 95%;
+}
+.box-rec img{
+    height: 10rem;
+    border: #F5972A solid 2px;
+}
+.rec{
+    margin: 2rem;
+}
+.box-rec {
+  margin: 1rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 220ms ease, box-shadow 220ms ease, filter 220ms ease;
+  will-change: transform, box-shadow, filter;
+}
+
+.box-rec:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+  filter: brightness(1.03) contrast(1.02);
+}
+
+.box-rec:active {
+  transform: translateY(0) scale(0.99);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+.boxs{
+    display: flex;
+}
+.rec h3{
+    color: #9AB2FF;
+    font-weight: 100
+}
+.rec-inf h3{
+    font-size: 1rem;
+    background-color: #ff9f40;
+    color: #151835 !important;
+}
+
+.btn-add {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  
+  background: #F5972A;       
+  color: aliceblue;         
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.btn-add:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 22px rgba(0,0,0,0.25);
+  background-color: #ff9f40;   /
+}
+
+.btn-add:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.20);
+  background-color: #e68620;   
+}

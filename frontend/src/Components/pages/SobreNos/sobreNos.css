@@ -1,0 +1,30 @@
+
+
+.sobre-nos-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem;
+  overflow: hidden;
+  margin: 0;
+}
+
+.body {
+  width: 40rem;
+  z-index: 2;
+}
+
+.sobre {
+  font-family: "Days One", sans-serif;
+  font-weight: 200;
+  color: #F5972A;
+  font-size: 2rem;
+}
+
+.desc {
+  color: aliceblue;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+

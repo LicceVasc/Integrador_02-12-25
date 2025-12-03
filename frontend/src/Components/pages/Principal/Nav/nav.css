@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Days+One&display=swap');
+
+
+.btn{
+    background-color: #9AB2FF;
+    margin: 2rem;
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+}
+.filtros{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+.laranja{
+    background-color: #F5972A;
+    font-family: "Dancing Script", cursive;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.localizacao button{
+    background-color: #F5972A;
+    font-family: "Days One", sans-serif;
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-left: 2rem;
+    height: 3rem;
+    border-radius: 12px;
+}
+input{
+    background-color: #9ab2ff00;
+    border: #9AB2FF 1px solid;
+    color: aliceblue;
+    font-family: "Days One", sans-serif;
+    font-size: 1.5rem;
+    height: 2.5rem;
+    width: 28rem;
+}
+.localizacao{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    margin-top: 2rem;
+    position: relative;
+}
+
+
+.popup-sugestoes {
+  position: absolute;
+  top: 100%;
+  background-color: #9AB2FF;
+  border-radius: 8px;
+  width: 31rem;
+  margin-top: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 10;
+  font-family: "Days One", sans-serif;
+}
+
+.item-sugestao {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  color: #F5972A;
+  background-color: #151835;
+  border-bottom: 1px solid #1E2142;
+}
+
+.item-sugestao:hover {
+  background-color: #1E2142;
+}

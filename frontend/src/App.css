@@ -1,0 +1,7 @@
+
+body{
+  background-color: #1E2142;
+  background-image: url('../public/fundo.png') ;
+ background-repeat: no-repeat;
+ background-size: cover;
+}

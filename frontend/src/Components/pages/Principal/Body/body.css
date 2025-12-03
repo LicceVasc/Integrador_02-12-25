@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Days+One&display=swap');
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: #151835;
+    border-radius: 12px;
+    height: 15rem;
+    width: 20rem;
+    color: aliceblue;
+    font-family: "Days One", sans-serif;
+    font-weight: 100;
+    padding: 1.5rem;
+    margin: 2rem;
+}
+.btn-card{
+    background-color: #9AB2FF;
+    border: none;
+    color: #000;
+    font-family: "Days One", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    border-radius: 8px;
+    width: 10rem;
+}
+.sugestoes{
+    text-align: center;
+    font-family: "Days One", sans-serif;
+    font-weight: 300;
+     margin-top: 5rem;
+}

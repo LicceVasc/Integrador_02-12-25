@@ -1,0 +1,246 @@
+
+
+.logo {
+  color: #F5972A;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+}
+
+.boasVindas{
+    font-family: "Days One", sans-serif;
+    font-weight: 300;
+}
+.texto{
+    color: #F5972A;
+    font-weight: 300;
+}
+.btnDesconectar{
+    background-color: #9AB2FF;
+    font-family: "Days One", sans-serif;
+    font-size: medium;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 8px;
+}
+.btnInicio{
+    background-color: #9AB2FF;
+    font-family: "Days One", sans-serif;
+    font-size: medium;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 8px;
+
+}
+.redirecionamento-div{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #15183585;
+    width: 80%;
+    height: 28rem;
+    margin: 10rem;
+    margin-top: 0;
+}
+
+.buttons{
+    display: flex;
+}
+.buttons :hover{
+    background-color: #879ce1;
+    border: 2px solid #a3b8fe;
+}
+.icon-p{
+    background-color: #9AB2FF;
+    border-radius: 50px;
+    margin-left: 1rem;
+    padding: .2rem;
+}
+.icon-n{
+    background-color: #9AB2FF;
+    border-radius: 50px;
+    margin-left: 1rem;
+    height: 1.9rem;
+    padding: .2rem;
+}
+.icons{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    cursor: pointer;
+    margin-left: 80%;
+}
+
+.redirec{
+    background-color: #1E2142;
+    height: 5rem;
+    top: 0 ; 
+    position: relative;
+    left: -1px;
+    top: -105px;
+    transition: none;
+    cursor: move;
+    margin-bottom: 0%;
+}
+
+.container-inicio {
+  background-color: #151835;
+  color: #9AB2FF;
+  border-radius: 8px;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.box-btn {
+  flex: 1 1 250px;
+  max-width: 300px;
+  background-color: #1E2142;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.box-itens{
+    width: 20rem;
+    padding-bottom: 1rem;
+}
+
+.painel h1{
+    color: aliceblue;
+    font-family: "Days One", sans-serif;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.btn-detalhes{
+    font-family: "Days One", sans-serif;
+    color: #9AB2FF;
+    background-color: #1E2142;
+    border: solid 1px #F5972A;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 0rem;
+    width: 10rem;
+    cursor: pointer;
+}
+
+.barra-lateral {
+  background-color: #151835;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.barra-inferior {
+  background-color: #151835;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-btn h3{
+    color: aliceblue;
+}
+.box-btn p{
+    cursor: pointer;
+}
+.box-btn p:hover{
+    color: #F5972A;
+}
+.btn-detalhes:hover{
+    background-color: #879ce1;
+    color: #151835;
+}
+.icons-2 {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.icon-p2{
+    background-color: #9AB2FF;
+    border-radius: 50px;
+    margin-left: 1rem;
+    padding: .2rem;
+}
+.icon-n2{
+    background-color: #9AB2FF;
+    border-radius: 50px;
+    margin-left: .3rem;
+    height: 1.7rem;
+    padding: .2rem;
+}
+.btn-barra{
+    background-color: #1E2142;
+    border: 1px solid #9AB2FF;
+    color: #9AB2FF;
+    border-radius: 6px;
+    font-family: "Days One", sans-serif;
+    height: 3rem;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+
+.barra-inferior h3{
+    margin-left: 2rem;
+
+}
+
+.btn-barra:hover{
+    background-color: #879ce1;
+    color: #151835;
+    border: solid 1px #F5972A;
+}
+
+@media (max-width: 768px) {
+  .box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .barra-lateral {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 0;
+  }
+
+  .barra-inferior {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .btn-barra {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .icons-2 {
+    flex-direction: row;
+  }
+}

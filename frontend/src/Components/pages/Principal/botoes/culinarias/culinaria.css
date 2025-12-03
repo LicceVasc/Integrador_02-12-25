@@ -1,0 +1,163 @@
+
+
+.b-pesquisa {
+   display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  margin-top: -6rem;
+  margin-bottom: 2rem;
+}
+
+
+.campo-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+}
+
+.lista-sugestoes {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #151835;
+  color: #F5972A;
+  border: 1px solid #9AB2FF;
+  font-family: "Days One", sans-serif;
+  width: 30rem;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 10;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-sugestoes li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.lista-sugestoes li:hover {
+  background-color: #1c2b4d;
+}
+
+.btn-culinaria{
+    background-color: #9AB2FF;
+    margin: 2rem;
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+}
+
+.card-sobremesa {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  gap: 1rem;
+  height: 11rem;
+  background-color: #1c2b4d;
+  width: 23rem;
+  margin-left: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card-sobremesa img {
+  height: 9rem;
+  width: auto;
+  margin-left: 1rem;
+}
+
+.info-sobremesa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.comida{
+    color: #F5972A;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.container-comida{
+    background-color: #151835;
+    height: 18rem;
+}
+
+.linha-sobremesas {
+  display: flex;
+  flex-direction: row;
+  justify-content: start; 
+  gap: 1rem;
+  padding: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .b-pesquisa {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 1rem;
+    padding: 0 1rem;
+  }
+
+  .campo-container {
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .campo-pesquisa {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .btn-pesquisa {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .lista-sugestoes {
+    width: 100%;
+    max-width: none;
+  }
+
+  .linha-sobremesas {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .card-sobremesa {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .card-sobremesa img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .info-sobremesa {
+    padding: 1rem;
+    gap: 0.3rem;
+  }
+
+  .container-comida {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .comida {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 0;
+  }
+}

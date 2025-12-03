@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Days+One&display=swap');
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 1rem 2rem;
+
+}
+
+.btn-pesquisa{
+    background-color: #F5972A;
+    font-family: "Days One", sans-serif;
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-left: 2rem;
+    height: 3rem;
+    border-radius: 12px;
+}
+input{
+    background-color: #9ab2ff00;
+    border: #9AB2FF 1px solid;
+    color: aliceblue;
+    font-family: "Days One", sans-serif;
+    font-size: 1.5rem;
+    height: 2.5rem;
+}
+
+.btn-trucks{
+    background-color: #9AB2FF;
+    margin: 2rem;
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+}
+.card-truck{
+  background-color: #151835;
+  color: aliceblue;
+  font-family: "Days One", sans-serif;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+
+.card-truck img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-truck h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: aliceblue; 
+  font-family: "Days One", sans-serif;
+  font-weight: 300;
+}
+
+.card-truck p {
+  font-size: 1.2rem;
+  margin: 0.3rem 0;
+}
+
+.card-truck .avaliacao {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #9AB2FF;
+}
+
+.avaliacao {
+  margin-left: auto;
+  display: flex;
+  justify-content: right;
+    position: relative;
+    left: -18px;
+    top: -37px;
+}
+
+.trucks{
+    display: flex;
+    justify-content: center;
+}
+
+.barra-pesquisa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem; 
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.lista-sugestoes {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #151835;
+  color: #F5972A;
+  border: 1px solid #9AB2FF;
+  font-family: "Days One", sans-serif;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 10;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-sugestoes li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.lista-sugestoes li:hover {
+  background-color: #1c2b4d;
+}

@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Days+One&display=swap');
+
+.lanches button{
+    background-color: #151835;
+    color: #ffffff;
+    height: 3rem;
+    font-family: "Days One", sans-serif;
+    border-radius: 8px;
+}
+.lanches{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+}
+.selected {
+    background-color: #9AB2FF !important;
+    color: #000 !important;
+}
+
+
+.lanches {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+
+
+button.selected {
+  background-color: #9AB2FF; 
+  color: #151835;
+}
+
+
+.pagina{
+    display: flex;
+    justify-content: center;
+}
+
+.pagina div{
+    background-color: #151835;
+    color: aliceblue;
+    font-family: "Days One", sans-serif;
+    width: 20rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    height: 22rem;
+}
+
+.btn-mais{
+    background-color: #9AB2FF;
+    color: #000;
+    font-family: "Days One", sans-serif;
+    font-size: 1.3rem;
+    border-radius: 4px;
+}
